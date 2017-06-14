@@ -17,6 +17,7 @@ ftserver must be started first.
 ftclient can connect to ftserver for directory list or retrieve file.
 The connections close after request complete. 
 
+```
 SERVER (flip1)                                             CLIENT (flip2)
 Input to console           Output                          Input to Console                   Output
 
@@ -75,3 +76,4 @@ flip2:30021
 
                                                                                                flip1:30021 says
                                                                                                FILE NOT FOUND
+```

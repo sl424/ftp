@@ -18,8 +18,8 @@ ftclient can connect to ftserver for directory list or retrieve file.
 The connections close after request complete. 
 ```
 
-SERVER (flip1)                                  CLIENT (flip2)
-Input to console           Output               Input to Console         Output
+SERVER (flip1)                                 CLIENT (flip2)
+Input to console     Output                    Input to Console         Output
 
 > ftserver 30021
                      Server open on 30021
@@ -40,7 +40,7 @@ Input to console           Output               Input to Console         Output
                                                > ftclient flip1 30021 –g
                                                shortfile.txt 30020
 
- Connection from flip2.
+Connection from flip2.
 File “shortfile.txt”
 requested on port 30020.
 Sending “shortfile.txt”
@@ -56,7 +56,7 @@ to flip2:30020
                                                  > ftclient flip1 30021 –
                                                  longfileee.txt 30020
 
- Connection from flip2.
+Connection from flip2.
 
 File “longfileee.txt”
 requested on port 30020.
@@ -66,3 +66,4 @@ flip2:30021
 
                                                                          flip1:30021 says
                                                                          FILE NOT FOUND
+```
